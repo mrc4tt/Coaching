@@ -1,0 +1,2 @@
+# Coaching
+SourceMod Plugin: Coaching
