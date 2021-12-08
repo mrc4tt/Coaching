@@ -9,7 +9,7 @@ public Plugin myinfo = {
     name        = "CSGO: Coaching",
     author      = "mrc4t#2090",
     description = "Make coach commands to work ingame-console again: coach ct, coach t, and uncoach",
-    version     = "1.2.0",
+    version     = "1.0.1",
     url         = "https://steamcommunity.com/id/mrc4t"
 };
 
