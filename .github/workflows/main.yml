@@ -36,10 +36,6 @@ jobs:
           echo version = ${{ steps.setup_sp.outputs.plugin-version }}
         working-directory: ${{ env.SCRIPTS_PATH }}
 
-      - name: Changelog
-        id: changelog
-        uses: mindsers/changelog-reader-action@v2.0.0
-
       - name: Install zip
         uses: montudor/action-zip@v1
 
@@ -55,7 +51,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: v${{ steps.setup_sp.outputs.plugin-version }}
           artifacts: "release.zip"
-          body: ${{ steps.changelog.outputs.changes }}
+          body: ${{ steps.outputs.changes }}
           draft: false
           allowUpdates: true
           prerelease: false
