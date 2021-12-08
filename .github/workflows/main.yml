@@ -26,7 +26,7 @@ jobs:
 
       - name: Compile plugins
         run: |
-          for file in example.sp
+          for file in coaching.sp
           do
             echo -e "\nCompiling $file..."
             spcomp -E -w234 -O2 -v2 -i include $file
