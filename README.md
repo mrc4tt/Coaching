@@ -1,5 +1,4 @@
-# Coaching
-SourceMod Plugin: Coaching
+# CSGO - Coaching (SourceMod Plugin)
 
 InGame-Console: 
 ```
