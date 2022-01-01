@@ -7,4 +7,4 @@ coach t
 uncoach
 ```
 
-[https://github.com/mrc4tt/Coaching/blob/main/CHANGELOG.md]: CHANGELOG
+[CHANGELOG](https://github.com/mrc4tt/Coaching/blob/main/CHANGELOG.md)
